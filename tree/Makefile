@@ -13,7 +13,7 @@ ldflags=
 
 
 # make file for tree
-all : tree
+all : clean tree
 
 tree : tree.o
 	cc ${flags} $^ -o $@ ${ldflags} 
