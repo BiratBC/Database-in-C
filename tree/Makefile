@@ -3,8 +3,14 @@
 # ldflags for linking process
 
 
-flags=-Wall -02 -std c2x
+flags=-Wall -O2 -std=c2x
 ldflags=
+
+
+# Wall -> enable compiler warnings
+#-02 flag is for optimization of code
+# std=2x specifies the C standard version e.g 21,22,23
+
 
 # make file for tree
 all : tree
